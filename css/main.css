@@ -1,1 +1,7 @@
-font-family: 'Source Sans Pro', sans-serif;
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
