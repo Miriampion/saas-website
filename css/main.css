@@ -21,6 +21,18 @@ nav {
 .blue {
   background-color:
 }
+.fake {
+  background-color: blue;
+  background-image: url(../images/desert.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40em;
+}
+
+footer {
+  background-color: #e2e2e2;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -31,16 +43,12 @@ nav {
   nav li {
     display: inline-block;
   }
-
 }
 
+@media only screen and (min-width: 52em) {
 
-.fake {
-  background-color: blue;
-  background-image: url(../images/desert.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30em;
+  .statement {
+    display: inline-block;
+  }
 
 }
