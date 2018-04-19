@@ -33,3 +33,14 @@ nav {
   }
 
 }
+
+
+.fake {
+  background-color: blue;
+  background-image: url(../images/desert.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30em;
+
+}
