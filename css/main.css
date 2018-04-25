@@ -37,7 +37,11 @@ nav {
   height: 40em;
 }
 .current {
-  background-color: orange;
+  color: orange;
+}
+
+.white {
+  color: #f2f2f2;
 }
 
 footer {
