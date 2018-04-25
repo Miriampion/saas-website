@@ -33,6 +33,9 @@ nav {
   background-position: center;
   height: 40em;
 }
+.current {
+  background-color: orange;
+}
 
 footer {
   background-color: #e2e2e2;
