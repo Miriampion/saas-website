@@ -4,17 +4,26 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner" class="zindex-1000 w-1 fake">
+    <h1>World Meeting</h1>
     <div class="grid">
       <div class="unit xs-1 s-1 m-1-3">
-        <span><a class="title pad-t-1-2 pad-b-1-2 push-0" href="home">World Meetings</a></span>
+        <span><a class="current title pad-t-1-2 pad-b-1-2 push-0" href="home">World Meetings</a></span>
       </div>
-      <nav class="unit xs-1 s-1 m-2-3 pad-b-1-2 pad-t-1-2">
+      <nav role="navigation" id="nav" tabindex="0" class="unit xs-1 s-1 m-2-3 pad-b-1-2 pad-t-1-2">
         <ul class="list-group push-0">
-          <li><a class="current island-1-2" href="pricing.html">Plans and Pricing</a></li>
+          <li><a class="island-1-2" href="pricing.html">Plans and Pricing</a></li>
           <li><a class="island-1-2" href="tour.html">Solutions</a></li>
           <li><a class="island-1-2" href="sign-up.html">Contact Sales</a></li>
         </ul>
@@ -22,44 +31,7 @@
     </div>
   </header>
     <main>
-      <section class="prices pad-t pad-b" id="prices" tabindex="0">
-        <div class="wrapper gutter-1-2">
-          <h2 class="push-0 color-brand-dark">Prices</h2>
-          <p class="petta max-length not-centered">We offer the most competitive prices</p>
 
-          <table>
-            <caption>Prices</caption>
-            <thead>
-              <tr>
-                <th scope="col">&nbsp;</th>
-                <th scope="col">One Time</th>
-                <th scope="col">Monthly</th>
-                <th scope="col">Yearly</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Small and personal</th>
-                <td>$70</td>
-                <td>$120</td>
-                <td>$130</td>
-              </tr>
-              <tr>
-                <th scope="row">Medium Business</th>
-                <td>$140</td>
-                <td>$250</td>
-                <td>$370</td>
-              </tr>
-              <tr>
-                <th class="bold" scope="row">Company</th>
-                <td>$370</td>
-                <td>$2000</td>
-                <td>$3000</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
 
       <div class="grid">
         <h1>Plans</h1>
