@@ -1,12 +1,12 @@
 html {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
   background-color: #f2f2f2;
 }
 
-.boxes{
+.boxes {
   background-color: #f2f2f2;
   border: 2px solid #fff;
   border-radius: 8px;
@@ -20,13 +20,13 @@ nav {
 .yellow {
   background-color: yellow;
 }
+
 .color-brand-dark {
   color: #113c76;
 }
 
-
 .blue {
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .l-blue {
@@ -34,12 +34,13 @@ nav {
 }
 
 a:hover {
-  color: white;
+  color: orange;
 }
 
 .nav a:focus {
   outline: 3px solid #000;
 }
+
 .fake {
   background-color: blue;
   background-image: url(../images/desert.jpg);
