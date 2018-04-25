@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
 </head>
-<header class="zindex-1000 w-1 fake">
+<header>
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-3">
       <h1 <a class="title pad-t-1-2 pad-b-1-2 push-0" href="home">World Meetings</a></h1>
@@ -19,24 +19,40 @@
       </ul>
     </nav>
   </div>
-<body>
+<body class="wrapper">
 
 <main>
 </main>
   <div class="grid">
     <h2></h2>
-    <form>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
 
-    <hr></hr>
+  <form class="push-0" method="POST" action="https://formspree.io/pion0009@algonquinlive.com">
+  <fieldset class="push-1-2">
+  <div class="grid">
+    <legend class="push giga gutter-1-2">Sign Up</legend>
+    <div class="grid gutter-1-2">
+      <div class="unit pad-t-1-4 gutter-1-2 xs-1 s-1 m-1-2">
+        <label class="push-1-8" for="fullname">Name</label>
+        <input id="fullname" required>
+      </div>
 
-    <div></div>
-    <div></div>
-  </div>
+      <div class="unit pad-t-1-4 gutter-1-2 xs-1 s-1 m-1-2">
+        <label class="push-1-8" for="company">Company</label>
+        <input id="company" required>
+      </div>
 
+      <div class="unit gutter-1-8 push xs-1 s-1 m-1-2">
+          <label class="push-1-8" for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="unit gutter-1-8 push xs-1 s-1 m-1-2">
+          <label class="push-1-8" for="phone-number">Phone number</label>
+          <input type="tel" id="phone-number" required>
+        </div>
+      </div>
+    </div>
+  </fieldset>
 </form>
 
 </body>
