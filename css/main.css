@@ -18,7 +18,7 @@ nav {
 }
 
 .yellow {
-  background-color: e;
+  background-color: yellow;
 }
 .color-brand-dark {
   color: #113c76;
@@ -26,7 +26,11 @@ nav {
 
 
 .blue {
-  background-color:
+  background-color:#f2f2f2;
+}
+
+.l-blue {
+  color: orange;
 }
 
 a:hover {
