@@ -43,12 +43,13 @@ a:hover {
 
 .fake {
   background-color: blue;
-  background-image: url(../images/desert.jpg);
+  background-image: "url(../images/desert.jpg)";
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 40em;
 }
+
 .current {
   color: orange;
 }
@@ -70,6 +71,7 @@ footer {
   nav li {
     display: inline-block;
   }
+
 }
 
 @media only screen and (min-width: 52em) {
