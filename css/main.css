@@ -44,6 +44,18 @@ nav {
   position: relative;
 }
 
+.icon-homepage {
+  max-width: 100px;
+}
+
+.grey {
+  background-color: #e2e2e2;
+}
+
+a {
+  text-decoration: none;
+}
+
 .banner-content {
   position: absolute;
   width: 90%;
