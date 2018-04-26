@@ -3,21 +3,21 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#231F20;stroke-width:1.947;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#231F20;stroke-width:8.771;stroke-miterlimit:10;}
 	.st1{fill:#231F20;}
-	.st2{fill:none;stroke:#231F20;stroke-width:2.1655;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#231F20;stroke-width:1.9474;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#231F20;stroke-width:9.7553;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#231F20;stroke-width:8.7728;stroke-miterlimit:10;}
 </style>
 <g>
 	<g>
 		<g>
-			<line class="st0" x1="310.4" y1="360.8" x2="287.6" y2="373.9"/>
+			<line class="st0" x1="418.9" y1="172.8" x2="287.6" y2="218.9"/>
 			<g>
-				<path class="st1" d="M320.6,354.9c-5.8,1-13.5,1.4-19,0.3l7.5,6.3l1.7,9.7C312.6,365.9,316.8,359.4,320.6,354.9z"/>
+				<path class="st1" d="M477.7,152c-33.4,3.5-77.8,4.9-109.4,1.1l43.2,22.2l9.8,34.2C431.6,190.8,455.8,167.9,477.7,152z"/>
 			</g>
 		</g>
 	</g>
-	<rect x="290.6" y="382.9" class="st2" width="13.8" height="52.4"/>
-	<rect x="309.3" y="374.3" class="st3" width="15.7" height="59.8"/>
+	<rect x="304.9" y="250.7" class="st2" width="79.5" height="184.6"/>
+	<rect x="412.6" y="220.4" class="st3" width="90.4" height="210.7"/>
 </g>
 </svg>
