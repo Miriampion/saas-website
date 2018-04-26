@@ -17,6 +17,12 @@ nav {
   text-align: center;
 }
 
+.container {
+  min-height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
 .yellow {
   background-color: yellow;
 }
@@ -33,6 +39,19 @@ nav {
   color: orange;
 }
 
+.banner {
+  text-align: center;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%,-50%);
+}
+
 a:hover {
   color: orange;
 }
@@ -41,13 +60,8 @@ a:hover {
   outline: 3px solid #000;
 }
 
-.fake {
+.blu {
   background-color: blue;
-  background-image: "url(../images/desert.jpg)";
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 40em;
 }
 
 .current {
