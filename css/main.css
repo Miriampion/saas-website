@@ -23,8 +23,12 @@ nav {
   overflow: hidden;
 }
 
+.btn {
+  padding: 14px;
+}
+
 .yellow {
-  background-color: yellow;
+  background-color: #e48205;
 }
 
 .color-brand-dark {
